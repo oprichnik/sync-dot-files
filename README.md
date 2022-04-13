@@ -16,7 +16,7 @@
 
 `sync-dot-files.php init-remote`
 
-## Initialisation config local (premier pc)
+## Initialisation config local
 
 `sync-dot-files.php init-local`
 
