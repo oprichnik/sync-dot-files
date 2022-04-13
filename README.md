@@ -30,13 +30,13 @@
 
 `sync-dot-files.php remove ~/fichier.txt`
 
-## Récupérer les données en lignes et dispatcher sur les fichiers locaux
+## Récupérer les données à partir du repository et dispatcher sur les fichiers locaux
 
 `sync-dot-files.php pull`
 
 **/!\ Cette opération écrase les fichiers locaux, en cas de doute de modification sur les fichiers locaux, il est préférable de faire un push auparavant.**
 
-## Pusher les modifications locales en ligne
+## Pusher les modifications locales sur le repository
 
 `sync-dot-files.php push`
 
