@@ -261,7 +261,7 @@ class SyncDotFiles
         $homeFilePath = str_replace($this->homeDirectory, '~', $filePath);
 
         if (in_array($homeFilePath, $this->registry)) {
-            array_splice($this->registry, array_search($homeFilePath, $this->registry));
+            array_splice($this->registry, array_search($homeFilePath, $this->registry), 1);
 
             $this->writeRegistry($this->registry);
 
